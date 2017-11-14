@@ -8,12 +8,11 @@ and open the template in the editor.
     Author     : khaled
 */
 
-p {
-    text-align: right;
-    color: black;
-}
-
-#login {
-    text-align: center;
-    color: black;
+div.container{
+    border: 2px;
+    background: #ccffff;
+    margin: auto;
+    align-content: center;
+    width: 500px;
+    
 }

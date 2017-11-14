@@ -5,13 +5,16 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
         <title>Login Page</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+        
+        <h:outputStylesheet library="css" name="stylesheet.css" />
     </h:head>
     <h:body>
+        
         <f:view>
             <h:form>
+                <div class="container">
                 <h:panelGrid columns="2">
-                    <h:graphicImage value="/resources/images/logo.gif" alt="logo" height="200" width="200"/>
+                    <h:graphicImage value="/resources/images/logo.gif" alt="logo" height="200" width="200" style="align: middle"/>
                     <h:outputLabel value=""/>
                     <h:outputLabel value="User-name :"/>
                     <h:inputText  value=""/>
@@ -21,10 +24,10 @@
                     <h:commandButton value="reset" action="login"/>
                     <h:commandButton value="Guest" action="guest"/>
                 </h:panelGrid>
+               </div> 
             </h:form>
-
         </f:view>
-            
+          
     </h:body>
 </html>
 
